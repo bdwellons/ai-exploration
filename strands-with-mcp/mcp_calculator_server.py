@@ -12,7 +12,6 @@ mcp = FastMCP("Calculator Server")
 # Initialize AWS Bedrock client
 # Credentials will be loaded from environment variables or AWS credentials file
 bedrock_runtime = boto3.client(
-    # RoleArn='arn:aws:bedrock:us-east-2:642634167302:inference-profile/global.anthropic.claude-sonnet-4-20250514-v1:0',
     service_name='bedrock-runtime',
     region_name=os.getenv('AWS_REGION', 'us-east-2')  # TODO: Match Region to your Bedrock's region
 )
