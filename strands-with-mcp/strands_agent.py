@@ -28,6 +28,5 @@ with streamable_http_mcp_client:
     result = agent.tool.add(x=145, y=325)
     print(f"Calculation result: {result['content'][0]['text']}")
 
-    # Let the agent choose
     result = agent.tool.divide(x=100, y=201)
     print(f"Calculation result: {result['content'][0]['text']}")
