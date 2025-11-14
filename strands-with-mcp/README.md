@@ -23,5 +23,5 @@ Install dependencies from requirements.txt
 Run the MCP Calculator Server
 > python3 -u strands-with-mcp/mcp_calculator_server.py
 
-In another terminal, run the simulated agent input
+In another terminal, start venv again and run the simulated agent input
 > python3 -u strands-with-mcp/strands_agent.py
